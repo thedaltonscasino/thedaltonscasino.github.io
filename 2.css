@@ -2090,7 +2090,7 @@ template {
 }
 
 .title-def span {
-    color: #b15cfe
+    color: #f9fe5c
 }
 
 .list-item {
@@ -2211,7 +2211,7 @@ template {
     font-size: .875rem;
     text-transform: uppercase;
     font-weight: 700;
-    color: #b15cfe;
+    color: #f9fe5c;
     letter-spacing: .1em
 }
 
