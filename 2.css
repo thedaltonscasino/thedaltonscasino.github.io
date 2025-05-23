@@ -2128,7 +2128,7 @@ template {
     -webkit-transition: opacity .3s linear;
     -o-transition: opacity .3s linear;
     transition: .3s linear;
-    background: linear-gradient(45deg, #131436, #9c2fff);
+    background: linear-gradient(45deg, #131436, #f9fe5c);
     width: 100%;
 }
 
@@ -2283,8 +2283,8 @@ template {
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: -o-linear-gradient(45deg,#9c2fff,#5228e5);
-    background: linear-gradient(45deg,#9c2fff,#5228e5);
+    background: -o-linear-gradient(45deg,#f9fe5c,#5228e5);
+    background: linear-gradient(45deg,#f9fe5c,#5228e5);
     opacity: 0;
     -webkit-transition: opacity .3s linear;
     -o-transition: opacity .3s linear;
