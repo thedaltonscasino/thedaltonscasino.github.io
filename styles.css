@@ -1,0 +1,85 @@
+/* Tüm cihazlarda varsayılan ayar */
+.gif-container {
+    display: flex;
+    justify-content: center;
+    /* Ortalar */
+    align-items: center;
+    /* Ortalar */
+    height: auto;
+    padding: 10px;
+}
+
+.responsive-gif {
+    width: 700px;
+    /* Varsayılan genişlik */
+    height: 150px;
+    /* Varsayılan yükseklik */
+    max-width: 100%;
+    /* Maksimum genişlik ekranı aşamaz */
+    height: auto;
+    /* Yükseklik otomatik ölçeklenir */
+}
+
+/* Mobil cihazlar için (ekran genişliği 768px'den küçükse) */
+@media (max-width: 768px) {
+    .responsive-gif {
+        width: 100%;
+        /* Ekranın tamamını kaplar */
+        height: auto;
+        /* Yüksekliği en-boy oranına göre ayarlanır */
+    }
+}
+
+
+
+/* YENİ BOYUTLANDIRMA BANNER DİV */
+@media (max-width: 768px) {
+
+    /* top-board div'i için esnek düzen */
+    .top-board {
+        width: 100%;
+        /* Tam genişlik */
+        max-width: 400px;
+        /* En fazla 400px genişliğinde */
+        height: 250px;
+        /* Sabit yükseklik */
+        background-size: cover;
+        /* Arka plan resmi tüm alanı kapsayacak */
+        background-position: center;
+        /* Arka planı ortala */
+        background-repeat: no-repeat;
+        /* Tekrarlama */
+        margin: 0 auto;
+        /* Ortala */
+        display: flex;
+        /* Flexbox düzeni */
+        flex-direction: column;
+        /* İçeriği dikeyde hizala */
+        justify-content: center;
+        /* İçeriği dikeyde ortala */
+        align-items: center;
+        /* İçeriği yatayda ortala */
+        padding: 20px;
+        /* İçeriği dışarıdan biraz uzaklaştır */
+        box-sizing: border-box;
+        /* İçerik boyutları dışarı taşmasın */
+    }
+
+    .top-board__title {
+        font-size: 2rem !important;
+        /* 1rem boyutunda başlık, !important ile önceliği artırdık */
+        text-align: center;
+        color: #ffffff !important;
+        text-shadow: 3px 3px 6px rgba(1, 1, 1, 1); /* Siyah gölge */
+    }
+
+    .top-board__sub {
+        font-size: 1rem;
+        /* Alt yazı boyutunu küçült */
+        text-align: center;
+        /* Alt yazıyı ortala */
+        color: #fff;
+        /* Renk */
+    }
+}
+
